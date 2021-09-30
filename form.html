@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-color: floralwhite;"><center>
+   <h1> Student Registration form</h1> 
+    <h2>Personal details</h2> </center>
+    <fieldset> 
+     <p>Name: <input type="text" required> </p> 
+    </fieldset> 
+    <fieldset> 
+        <p>Father’s name: <input type="text"></p> 
+    </fieldset>
+     <fieldset>
+        <p>Mother's name: <input type="text"> </p>
+    </fieldset> 
+    <fieldset> 
+     <p>Gender: </p>
+     <input type="radio" id="male" name="Gender" value="male">
+  <label for="male">Male </label><br>  
+   <input type="radio" id="female" name="Gender" value="female">
+   <label for="female">Female</label> 
+    </fieldset> 
+    <fieldset> 
+     <p>Date of birth : <input type="date"></p> 
+    </fieldset> 
+    <fieldset> 
+     <p>Mobile number:<input type="number"> </p>
+     <p>Email Address :<input type="email"></p>
+    </fieldset> 
+    <fieldset> 
+     <p>Address:</p><br>
+         <p>House no./street/gali no.  : <input type="text" ></input>  
+             Town/Village : <input type="text"></input>  
+             City : <input type="text"></input>   <br>
+        </p> 
+        <p>State/Province  : <input type="text"></input>  
+            Country : <input type="text"></input>
+            Pin code/Postal code : <input type="number"></input>
+        </p>
+    </fieldset>
+    <center> 
+    <h2>Academic  Details</h2> </center>
+    <fieldset> 
+     <p> Heighest Qualification
+         <select > 
+            <option >----select----</option>
+            <option >10th</option> 
+            <option> 12th</option>
+            <option> Graduation</option>
+            <option >Post Graduation</option>
+            <option>Research scholor</option>
+            
+            </select> </p> 
+    </fieldset> 
+
+    <fieldset> 
+        <p>Total Marks : <input type="number"></input></p> 
+        <p>Marks Obtained :<input type="number"></input></p>
+        <p>Percentae : <input type="number"></input></p>
+    </fieldset>
+    <fieldset>
+    <p> Academic Achievements: <br>
+    <textarea rows="5" cols="100"></textarea></p>  
+    </fieldset> 
+    <fieldset> 
+    <center> 
+        <h2>Upload Documents</h2>
+    <fieldset>
+        <label for="image">Image :</label>
+        <input type="file" id="image" ></input>
+    </fieldset>
+    <fieldset>
+        <label for="sign">Signature :</label>
+        <input type="file" name="sign" id="sign">
+    </fieldset>
+    <fieldset>
+        <label for="marksheet">Marksheet :</label>
+        <input type="file" name="marksheet" id="marksheet">
+    </fieldset>  
+    <fieldset>
+        <label for="Adhaar Card">Adhaar Card :</label>
+        <input type="file" name="Adhaar Card" id="Adhaar Card">
+    </fieldset>  
+    <p> <input type="submit" value="Submit"> <input type="reset" value="Reset Form"> </p>  
+</body>
+</html>
